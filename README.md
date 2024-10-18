@@ -20,9 +20,6 @@ knex 'fruits'
 .orWhere 'c', '=', 'apple'
 ```
 
-## Overview
-In this project, we developed a coder agent to enhance developer productivity. The core functionality of our agent is to write code and execute terminal commands on your behalf, streamlining your workflow and allowing you to focus on higher-level tasks. This approach can help speed up development, allowing development time on higher level tasks.
-
 ## Prerequisites
 - Python 3.11 or greater (local setup)
 
