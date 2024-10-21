@@ -3,25 +3,18 @@
 ## Recent Changes
 Created a new feature to transform SQL queries into Knex.js queries in CoffeeScript language. You can compile CoffeeScript to JavaScript using the [CoffeeScript Compiler](https://coffeescript.org/v1/) by clicking the 'TRY COFFEESCRIPT' button. After compiling, you can validate the Knex.js code using the [Knex Playground](https://dgadelha.github.io/knex-playground/). This ensures that all CoffeeScript and Knex.js code is working correctly.
 Eg:
-```Prompt: change this sql to knex: "select * from fruits where a = 1 and b > 11 or c = 'apple'"
-
-
+```
+Prompt: change this sql to knex: "select * from fruits where a = 1 and b > 11 or c = 'apple'"
 > Entering new AgentExecutor chain...
-
 Invoking: `sql_to_knex_coffeescript` with `{'sql_query': "select * from fruits where a = 1 and b > 11 or c = 'apple'"}`
-
 The equivalent Knex.js query in CoffeeScript syntax is:
-
-\`\`\`coffeescript
+```coffeescript
 knex 'fruits'
 .select '*'
 .where 'a', '=', 1
 .andWhere 'b', '>', 11
 .orWhere 'c', '=', 'apple'
 ```
-
-## Overview
-In this project, we developed a coder agent to enhance developer productivity. The core functionality of our agent is to write code and execute terminal commands on your behalf, streamlining your workflow and allowing you to focus on higher-level tasks. This approach can help speed up development, allowing development time on higher level tasks.
 
 ## Prerequisites
 - Python 3.11 or greater (local setup)
