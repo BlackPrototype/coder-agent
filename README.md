@@ -1,7 +1,7 @@
 # Guided Project 2: Coder Agent
 
 ## Recent Changes
-Added a new feature to transform SQL queries into Knex.js queries in CoffeeScript language. You can compile CoffeeScript to JavaScript using the [CoffeeScript Compiler](https://coffeescript.org/v1/) by clicking the 'TRY COFFEESCRIPT' button. After compiling, you can validate the Knex.js code using the [Knex Playground](https://dgadelha.github.io/knex-playground/). This ensures that all CoffeeScript and Knex.js code is working correctly.
+Created a new feature to transform SQL queries into Knex.js queries in CoffeeScript language. You can compile CoffeeScript to JavaScript using the [CoffeeScript Compiler](https://coffeescript.org/v1/) by clicking the 'TRY COFFEESCRIPT' button. After compiling, you can validate the Knex.js code using the [Knex Playground](https://dgadelha.github.io/knex-playground/). This ensures that all CoffeeScript and Knex.js code is working correctly.
 Eg:
 ```
 Prompt: change this sql to knex: "select * from fruits where a = 1 and b > 11 or c = 'apple'"
